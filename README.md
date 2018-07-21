@@ -109,16 +109,16 @@
 
 ### 大牛博客
 
-- [awesome-programmers](https://github.com/rekihattori/awesome-programmers) - 各领域大牛，值得纪念的程序员们
-- 云风（游戏界大牛）: <http://blog.codingnow.com/>
-- 王垠（不少文章喷到蛮有道理）：<http://www.yinwang.org/>
-- 冰河-伞哥(Lisp大牛)：<http://tianchunbinghe.blog.163.com/>
-- R大[【干货满满】RednaxelaFX写的文章/回答的导航帖](https://zhuanlan.zhihu.com/p/25042028)
-- 陈皓-左耳朵耗子：<http://coolshell.cn/>
-- Jeff Atwood（国外知名博主）: <https://blog.codinghorror.com/>
-- 阮一峰（黑客与画家译者，Web）：<http://www.ruanyifeng.com/>
-- 廖雪峰（他的Python、Git教程不少人都看过）：<http://www.liaoxuefeng.com/>
-- 道哥的黑板报（安全）：<https://zhuanlan.zhihu.com/taosay>
+- [awesome-programmers](https://github.com/rekihattori/awesome-programmers): 各领域大牛，值得纪念的程序员们
+- [云风](http://blog.codingnow.com/): 游戏界大牛
+- [王垠](http://www.yinwang.org/): 不少文章喷到蛮有道理
+- [冰河-伞哥](http://tianchunbinghe.blog.163.com/): Lisp大牛
+- [R大](https://zhuanlan.zhihu.com/p/25042028): 【干货满满】RednaxelaFX写的文章/回答的导航帖]
+- [陈皓](http://coolshell.cn/): 左耳朵耗子
+- [Jeff Atwood](https://blog.codinghorror.com/): 国外知名博主
+- [阮一峰](http://www.ruanyifeng.com/): 黑客与画家译者，Web
+- [廖雪峰](http://www.liaoxuefeng.com/): 他的Python、Git教程不少人都看过
+- [道哥的黑板报](https://zhuanlan.zhihu.com/taosay): 安全
 - [国内GitHub上关注度较高的开发者](https://github.com/search?l=&o=desc&p=1&q=location%3AChina&ref=advsearch&s=followers&type=Users&utf8=%E2%9C%93)
 
 ### GitHub篇
@@ -126,9 +126,9 @@
 ** Awesome **
 
 - [Awesome](https://github.com/sindresorhus/awesome): 这是个Awesome合集，常见的资料这里面都能找到
-- [Awesome2](https://github.com/sindresorhus/awesome): 类似第一个Awesome
 - [杂七杂八、有用没用的Awesome合集](https://github.com/jnv/lists)
-- [非常不错的语言类学习资料集合：Awesomeness](https://github.com/bayandin/awesome-awesomeness)
+- [Awesomeness](https://github.com/bayandin/awesome-awesomeness) - 非常不错的语言类学习资料集合
+- [architect-awesome](https://github.com/xingshaocheng/architect-awesome) - 后端架构师技术图谱
 - [awesome-ios-ui](https://github.com/cjwirth/awesome-ios-ui)
 - [awesome-android-ui](https://github.com/wasabeef/awesome-android-ui)
 - [Awesome-MaterialDesign](https://github.com/lightSky/Awesome-MaterialDesign)
@@ -205,6 +205,7 @@
 
 ** 工作，工具 **
 
+- [Compiler Explorer](https://godbolt.org/)
 - [系统管理员工具集合](https://github.com/kahun/awesome-sysadmin)
 - [Pro Git](http://git-scm.com/book/zh)
 - [Nginx开发从入门到精通](https://github.com/taobao/nginx-book)
@@ -219,10 +220,13 @@
 
 ## 工具篇
 
-### 平台工具
+### 平台工具&框架
 
+- [Jupyter](http://jupyter.org/): IPython Notebook, 有个子项目sparkmagic，可以和Spark集合在一起，类似spark-notebook项目
 - [Swagger](http://swagger.io/): RESTful API设计工具，前后端分离项目必备，顺便推荐下[Easy Mock](https://www.easy-mock.com/)
-- Phabricator: 软件开发平台，Facebook出品，现已开源，CodeReview神器（从这个往下一直到GitLab之间的工具统统可以忽略了）
+- [Flutter](https://flutter.io/): Google出品，高性能跨平台移动应用开发框架
+- [OpenZipkin](https://zipkin.io/): 分布式Trace系统，可用于分析服务调用链间的消耗
+- [Phabricator](https://secure.phabricator.com/): 软件开发平台，Facebook出品，现已开源，CodeReview神器（从这个往下一直到GitLab之间的工具统统可以忽略了）
 - Redmine/Trac：项目管理平台
 - Jenkins/Jira(非开源)：持续集成系统（Apache Continuum，这个是Apache下的CI系统，还没来得及研究）
 - git，svn：源代码版本控制系统
@@ -238,8 +242,8 @@
 - 日志聚合：graylog、ELK（推荐新一代的graylog，基本上算作是开源的Splunk了）
 - 开源测试工具、社区（Selenium、OpenQA.org）
 - Puppet:一个自动管理引擎，可以适用于Linux、Unix以及Windows平台。所谓配置管理系统，就是管理机器里面诸如文件、用户、进程、软件包这些资源。无论是管理1台，还是上万台机器Puppet都能轻松搞定。其他类似工具：CFEngine、SaltStack、Ansible
-- Nagios：系统状态监控报警，还有个Icinga(完全兼容nagios所有的插件,工作原理,配置文件以及方法,几乎一模一样。配置简单,功能强大)
-- Ganglia：分布式监控系统
+- [jumpserver](http://www.jumpserver.org/): 开源堡垒机
+- [Prometheus](https://prometheus.io/) 监控系统+时序数据库，一般搭配Grafana使用。类似的系统还有Nagios,Zabbix,Ganglia
 - fleet：分布式init系统
 - Ansible：能够大大简化Unix管理员的自动化配置管理与流程控制方式。
 - GeoLite免费数据库
@@ -282,7 +286,6 @@
 - OllyDbg: OD大名鼎鼎的反汇编工具，Win平台
 - Fritzing：绘制电路图
 - LICEcap：gif教程制作
-- git，svn：版本控制系统
 - Enigma Virtual Box（将exe，dll等封装成一个可执行程序）
 - Open DBDiff(针对SqlServer)数据库同步
 - SymmetricDS：数据库同步
@@ -300,16 +303,16 @@
 - tinyproxy:（Linux）小型的代理服务器支持http和https协议
 - EaseUS Partition Master：超级简单的分区调整工具，速度还是蛮快的，C盘不够用了就用它从D盘划点空间吧，不用重装系统这么折腾哦。
 - CheatEngine：玩游戏修改内存值必备神器（记得我在玩轩辕剑6的时候就用的它，超级方便呢）
-- ApkIDE:Android反编译神器
+- ApkIDE: Android反编译神器（类似的还有apktool）
+- HandShaker: 锤子的良心之作：为解决安卓手机与Mac当中文件传输问题，专门开发的SmartFinder文件管理器改进版
 - 翻、墙工具（自|由|门、天行浏览器，免费的VPN：http://www.mangovpn.com/）,发现最方便还属Lantern，免费用起来超级方便（更新于2015-08-22）
 - 设计工具：Sketch、OmniGraffle
 - MindManger：思维导图
-- MagicDraw:Uml图工具
+- MagicDraw: Uml图工具
 - innotop：MySql状态监测工具
 - 墨刀：比Axure更为简单的原型工具，可以快速制作原型
 - Karabiner: Mac专用，修改键盘键位的神器，机械键盘必备
 - Timing：Mac专用，统计你的时间都花在哪了
-- f.lux: 护眼神器，过滤蓝光，程序员护眼必备良品
 - LaTeX: 基于ΤΕΧ的排版系统, 让写论文更方便
 - Antlr：开源的语法分析器，可以让你毫无压力的写个小parser
 
@@ -335,7 +338,8 @@
 ### 安全相关
 
 - sql注入检测：sqlmap、haviji
-- 端口扫描：nmap
+- 端口扫描：nmap, 
+- [masscan](https://github.com/robertdavidgraham/masscan)：据说可以6分钟中扫遍整个互联网的端口扫描器
 - 渗透测试：BurpLoader
 - sqltools: sql漏洞利用工具
 - snort: 入侵检测
@@ -359,7 +363,7 @@
 ## 大数据处理/数据分析/分布式工具
 
 - Hadoop：分布式的文件系统，结合其MapReduce编程模型可以用来做海量数据的批处理（Hive，Pig，HBase啥的就不说了），值得介绍的是Cloudera的Hadoop分支CDH5，基于YARN MRv2集成了Spark可直接用于生产环境的Hadoop，对于企业快速构建数据仓库非常有用。
-- Spark：大规模数据处理框架（可以应付企业中常见的三种数据处理场景：复杂的批量数据处理（batch data processing）；基于历史数据的交互式查询（interactive query）；基于实时数据流的数据处理（streaming data processing）），CSND有篇文章介绍的不错
+- Spark：大规模数据处理框架（可以应付企业中常见的三种数据处理场景：复杂的批量数据处理（batch data processing）；基于历史数据的交互式查询（interactive query）；基于实时数据流的数据处理（streaming data processing））
 - 除了Spark，其他几个不错的计算框架还有：Kylin，Flink，Drill
 - Ignite: In-Memory Data Fabric
 - CarbonData: 华为的孵化项目，支持索引的列式存储
@@ -401,6 +405,7 @@
 
 - [Material Design](https://material.io/): 谷歌出品，必属精品
 - Vue.js: 借鉴了Angular及React的JS框架，设计理念较为先进
+- [Sciter](https://sciter.com/): GUI框架，采用自己的HTML/CSS解析器，具有出色的扩展特性和性能，dll压缩后在1~2M
 - GRUNT: js task runner
 - Sea.js: js模块化
 - knockout.js：MVVM开发前台，绑定技术
@@ -481,12 +486,16 @@
 
 ### Java
 
-- 常用的IDE：IntelliJ IDEA(强烈推荐)，Eclipse，Netbeans
+- 常用的IDE：[IntelliJ IDEA](https://www.jetbrains.com/idea/)(强烈推荐)，Eclipse，Netbeans
 - [fastutil](http://fastutil.di.unimi.it/): 性能更好的Java集合框架
-- Guava: 谷歌的Java工具包，应用广泛
+- [Guava](https://github.com/google/guava): 谷歌的Java工具包，应用广泛
+- [JMH](http://openjdk.java.net/projects/code-tools/jmh/): Java Benchmark性能测试框架
+- [Vert.x](https://vertx.io/): 性能彪悍的异步非阻塞编程框架
 - [Lagom](https://www.lagomframework.com/): 微服务框架，提供了Java、Scala API
+- jOOQ：java Orm框架
+- Janino: 超级小又快的Java编译器，Spark的Tungsten引起用的它
 - Curator：Netflix公司开源的一个Zookeeper client library，用于简化Zookeeper客户端编程，现在已经是apache下的一个独立项目了。Spark的HA也用的这货。
-- Rx(Reactive Extensions)框架：Vert.x, RxJava(Android中用的比较多),  Quasar
+- Rx(Reactive Extensions)框架：RxJava(Android中用的比较多),  Quasar
 - FindBugs: 代码静态分析工具，找出代码缺陷
 - Java反编译工具：Luyten，JD-Gui
 - Drools: 规则引擎
@@ -495,8 +504,6 @@
 - Web开发相关：Tomcat、Resin、Jetty、WebLogic等，常用的组件Struts，Spring，Hibernate
 - Netty: 异步事件驱动网络应用编程框架，用于高并发网络编程比较好（NIO框架，spark 1.2.0就用netty替代了nio）
 - MINA：简单地开发高性能和高可靠性的网络应用程序（也是个NIO框架），不少手游服务端是用它开发的
-- jOOQ：java Orm框架
-- Janino: 超级小又快的Java编译器，Spark的Tungsten引起用的它
 - Activiti:工作流引擎，类似的还有jBPM、Snaker
 - Perfuse:是一个用户界面包用来把有结构与无结构数据以具有交互性的可视化图形展示出来.
 - Gephi:复杂网络分析软件, 其主要用于各种网络和复杂系统，动态和分层图的交互可视化与探测开源工具
