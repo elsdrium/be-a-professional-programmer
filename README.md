@@ -58,7 +58,7 @@
 - [GitHub](https://github.com/)：全球最大的源代码管理平台，很多知名开源项目都在上面，如[Linux内核](https://github.com/torvalds/linux)，[OpenStack](https://github.com/openstack/openstack)等
 - [码云](https://git.oschina.net/)：支持中文可免费创建私有项目的代码托管平台，可作为备选
 - [LeetCode](https://leetcode.com/)：来做做这些题吧，看看自己的算法水平如何？这可比什么面试宝典强多了。
-- [LintCode](http://www.lintcode.com/zh-cn/)：支持中文的编程题在线训练平台，可作为备选
+- [LintCode](https://www.lintcode.com/)：支持中文的编程题在线训练平台，可作为备选
 - [Kaggle](https://www.kaggle.com/),[Topcoder](https://www.topcoder.com/): 机器学习、大数据竞赛
 - [掘金](https://gold.xitu.io/)：高质量的技术社区
 - [开发者头条](https://toutiao.io/)
@@ -84,9 +84,10 @@
 - 人月神话
 - 软件随想录
 - 算法导论（麻省理工学院出版社）
+- 编程之美
+- [算法之美](https://book.douban.com/subject/30155731/)，作者：[美]布莱恩·克里斯汀，汤姆·格里菲思
 - 离散数学及其应用
 - 设计模式
-- 编程之美
 - 黑客与画家
 - 编程珠玑
 - The Little Schemer
@@ -257,7 +258,7 @@
 - Graph::Easy: （Ascii Art工具）字符流程图绘制，实乃程序员装逼神器。其他类似的工具Asciiflow, vi插件：drawit!
 - spf13-vim: 让你的vim飞起来！
 - Kubernetes: 容器集群管理系统
-- Gatling: 服务器性能压力测试工具
+- [Gatling](https://gatling.io/): 服务器性能压力测试工具，类似的还有[wrk](https://github.com/wg/wrk)
 - systemtap: Linux内核探测工具、内核调试神器
 - Cygwin：Windows下的类UNIX模拟环境
 - MinGW：Windows下的GNU工具集
@@ -271,7 +272,8 @@
 - Charles: Mac上的Web代理调试工具，类似Fiddler
 - [fir.im](https://fir.im/)免费的移动App内测托管平台
 - wireshark：知名的网络数据包分析工具
-- PowerCmd:替代Windows Cmd的利器
+- PowerCmd:替代Windows Cmd的利器，类似的还有[cmder](http://cmder.net/)
+- [Xming](https://sourceforge.net/projects/xming/): Windows下的X Window Server，结合putty可以实现linux的图形化软件直接跑在Windows上 
 - RegexBuddy:强大的正则表达式测试工具
 - Soure Insight：源代码阅读神器
 - SublimeText：程序员最爱的编辑器
@@ -497,7 +499,7 @@
 - Curator：Netflix公司开源的一个Zookeeper client library，用于简化Zookeeper客户端编程，现在已经是apache下的一个独立项目了。Spark的HA也用的这货。
 - Rx(Reactive Extensions)框架：RxJava(Android中用的比较多),  Quasar
 - FindBugs: 代码静态分析工具，找出代码缺陷
-- Java反编译工具：Luyten，JD-Gui
+- Java反编译工具：Luyten，JD-Gui,Procyon-Decompiler
 - Drools: 规则引擎
 - Jersey: Java RESTful 框架
 - canal: 阿里巴巴出品，binlog增量订阅&消费组件
